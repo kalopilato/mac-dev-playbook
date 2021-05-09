@@ -57,6 +57,7 @@ homebrew_installed_packages:
   # - readline
   # - openssl
   - pv
+  - tldr
   - wget
   - wrk
   - zsh-syntax-highlighting
@@ -75,6 +76,7 @@ homebrew_cask_apps:
   - google-chrome
   - licecap
   - slack
+  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
