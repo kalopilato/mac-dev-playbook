@@ -7,15 +7,26 @@ configure_osx: true
 configure_ohmyzsh: true
 
 # Set to 'true' to configure the Dock via dockutil.
-configure_dock: false
-dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
+configure_dock: true
+dockitems_remove:
+- Launchpad
+- TV
+- Podcasts
+- Safari
+- Photos
+- Messages
 # - 'App Store'
-dockitems_persist: []
-# - name: "Sublime Text"
-#   path: "/Applications/Sublime Text.app/"
+dockitems_persist:
+- name: "Google Chrome"
+  path: "/Applications/Google Chrome.app/"
+- name: "Signal"
+  path: "/Applications/Signal.app/"
+- name: "Slack"
+  path: "/Applications/Slack.app/"
+- name: "Spotify"
+  path: "/Applications/Spotify.app/"
+- name: "Visual Studio Code"
+  path: "/Applications/Visual Studio Code.app/"
 
 configure_sudoers: false
 sudoers_custom_config: ''
@@ -57,7 +68,9 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - licecap
+  - signal
   - slack
+  - spotify
   # - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
@@ -78,7 +91,9 @@ gem_packages: []
 # - name: bundler
 #   state: present # present/absent/latest, default: present
 #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+npm_packages:
+  - name: yarn
+    state: present
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
