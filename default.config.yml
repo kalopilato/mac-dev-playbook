@@ -68,9 +68,11 @@ homebrew_cask_apps:
   - firefox
   - google-chrome
   - licecap
+  - rectangle
   - signal
   - slack
   - spotify
+  - stretchly
   # - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
