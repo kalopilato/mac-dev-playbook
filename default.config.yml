@@ -33,29 +33,10 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
-  # - autoconf
-  - autojump
-  # - bash-completion
-  # - doxygen
-  # - gettext
-  # - gifsicle
-  # - git
   - gh
-  # - go
-  # - gpg
   - httpie
-  # - iperf
-  # - libevent
-  # - sqlite
-  # - mcrypt
-  # - nmap
   - node
   - nvm
-  # - php
-  # - ssh-copy-id
-  # - cowsay
-  # - readline
-  # - openssl
   - pv
   - tldr
   - wget
