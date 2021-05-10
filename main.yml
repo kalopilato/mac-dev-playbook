@@ -12,6 +12,11 @@
       tags: ['always']
 
   roles:
+    - role: gantsign.oh-my-zsh
+      users:
+        - username: kalopilato
+      when: configure_ohmyzsh
+      tags: ['ohmyzsh']
     - role: geerlingguy.homebrew
       tags: ['homebrew']
     - role: geerlingguy.dotfiles

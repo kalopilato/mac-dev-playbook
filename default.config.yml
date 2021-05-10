@@ -4,6 +4,7 @@ downloads: ~/.ansible-downloads/
 configure_dotfiles: true
 configure_terminal: false
 configure_osx: true
+configure_ohmyzsh: true
 
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: false
@@ -57,7 +58,7 @@ homebrew_cask_apps:
   - google-chrome
   - licecap
   - slack
-  - visual-studio-code
+  # - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
