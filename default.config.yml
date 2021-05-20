@@ -9,13 +9,27 @@ configure_ohmyzsh: true
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: true
 dockitems_remove:
+- 'Alfred Preferences'
+- 'App Store'
+- Books
+- Calendar
+- Contacts
+- Dropbox
+- FaceTime
 - Launchpad
-- TV
-- Podcasts
-- Safari
-- Photos
+- Mail
+- Maps
 - Messages
-# - 'App Store'
+- Music
+- Notes
+- Photos
+- Podcasts
+- Reminders
+- Safari
+- Siri
+- 'System Preferences'
+- TV
+
 dockitems_persist:
 - name: "Google Chrome"
   path: "/Applications/Google Chrome.app/"
@@ -45,6 +59,7 @@ dotfiles_files:
   - .zshrc
 
 homebrew_installed_packages:
+  - autojump
   - gh
   - httpie
   - node
@@ -66,11 +81,11 @@ homebrew_cask_apps:
   - chromedriver
   - dropbox
   - firefox
-  - google-chrome
+  # - google-chrome
   - licecap
   - rectangle
   - signal
-  - slack
+  # - slack
   - spotify
   - stretchly
   # - visual-studio-code
