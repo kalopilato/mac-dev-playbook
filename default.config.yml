@@ -62,10 +62,13 @@ homebrew_installed_packages:
   - autojump
   - gh
   - httpie
+  - imagemagick
+  - mysql@5.6
   - node
   - nvm
   - pv
   - rbenv
+  - redis
   - tldr
   - wget
   - wrk
@@ -85,12 +88,14 @@ homebrew_cask_apps:
   - google-chrome
   - kite
   - licecap
+  - phantomjs
   - rectangle
   - signal
   - slack
   - spotify
   - stretchly
   - visual-studio-code
+  - wkhtmltopdf
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
