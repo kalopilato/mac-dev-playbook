@@ -81,14 +81,15 @@ homebrew_cask_apps:
   - chromedriver
   - dropbox
   - firefox
-  # - google-chrome
+  - google-chrome
+  - kite
   - licecap
   - rectangle
   - signal
-  # - slack
+  - slack
   - spotify
   - stretchly
-  # - visual-studio-code
+  - visual-studio-code
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
