@@ -65,7 +65,10 @@ homebrew_installed_packages:
   - node
   - nvm
   - pv
+  - rbenv
+  - ruby-build
   - tldr
+  - tree
   - wget
   - wrk
   - zsh-syntax-highlighting
